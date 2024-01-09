@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #ffb900;
+    --secondary-color: #5f5b53;
+    --white-color: #ffffff;
+    --black-color: #171100;
+}
+
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 118px;
+    padding: 0 16px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 24.5px;
+    color: var(--white-color);
+    background: var(--black-color);
+}
